@@ -42,7 +42,7 @@ def main(args=None):
     try:
         for i in range(3):   # 4 sides of a square
             node.move_forward(speed=1.0, duration=2.0)  # forward
-            node.turn(angular_speed=1.57, duration=.66)
+            node.turn(angular_speed=1.50, duration=1.33)
     except KeyboardInterrupt:
         pass
     finally:
@@ -51,3 +51,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
