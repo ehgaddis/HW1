@@ -43,9 +43,9 @@ def main(args=None):
         # Very similar to square code, however it creates different angles
         for i in range(2):  
             node.move_forward(speed=1.0, duration=2.0)
-            node.turn(angular_speed=1.57, duration=.66)
+            node.turn(angular_speed=1.50, duration=.66)
             node.move_forward(speed=1.0, duration=2.0)
-            node.turn(angular_speed=1.57, duration=1.33)
+            node.turn(angular_speed=1.50, duration=1.33)
     except KeyboardInterrupt:
         pass
     finally:
@@ -54,3 +54,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
